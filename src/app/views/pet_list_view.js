@@ -1,5 +1,6 @@
 import Backbone from 'backbone';
-
+import $ from 'jquery';
+import _ from 'underscore';
 import PetView from './pet_view';
 
 var PetListView = Backbone.View.extend({
