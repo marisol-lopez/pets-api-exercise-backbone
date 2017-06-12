@@ -6,5 +6,7 @@ import PetListView from 'app/views/pet_list_view';
 
 $(document).ready(function() {
 
+var petCardTemplate = _.template($('#pet-card-template').html());
+
 
 });
